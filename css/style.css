@@ -1,0 +1,90 @@
+
+body{
+    background-color: black;
+    color: rgb(128, 22, 43); 
+}
+
+/* #space {
+    display: flex;
+    height: 2vh;
+} */
+
+section {
+    height: 100vh;
+}
+
+section.hero {
+    background: url("../images/Fighter_neu.png");
+    /* background: url("https://picsum.photos/960") center center;*/
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section.hero h1 {
+    font-size: 30px;
+}
+
+section.problems {
+    height: 100vh;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.teamPics {
+    display: flex;
+    flex-basis: 1fr 1fr 1fr;
+    justify-content: space-around;
+    flex-wrap: columns wrap;
+}
+
+img {
+    width: 400px;
+}
+
+/* .wholePage {
+    color: black;
+    alignment: center;
+    background-color: black;
+    /* background-image: url("../images/chineseFighter.jpg");
+
+    background-repeat: no-repeat; 
+}*/
+
+h2 {
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(128, 22, 43);
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-bottom: 0;
+}
+
+.headlineHR {
+    text-align: right;
+    margin-right: 0;
+    border-width: 10px;
+    border-color: rgb(128, 22, 43);
+    width: 80%;
+    margin-bottom: 100px;
+
+}
+
+/* .sectionHeadLine h1 {
+    background-color: black;
+    background-position: top left;
+    background-size: cover;
+    padding: 15em;
+} */
+

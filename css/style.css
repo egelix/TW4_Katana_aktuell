@@ -1,7 +1,7 @@
 
 body{
     background-color: black;
-    color: rgb(248, 222, 22); 
+    color: rgb(236, 218, 23);
     font-size: 30px;
     margin-top: 0;
 }
@@ -19,7 +19,7 @@ section.hero {
     /* background: url("../images/Fighter_neu.png");
     background-attachment: fixed;
     background-size: cover; */
-    color: rgb(128, 22, 43);
+    color: rgb(208, 23, 23);
     margin: 0;
     display: flex;
     align-content: center;
@@ -85,7 +85,7 @@ h3 {
 h2 {
     font-size: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(128, 22, 43);
+    color: rgb(208, 23, 23);
     display: flex;
     justify-content: flex-end;
     margin-right: 100px;
@@ -97,7 +97,7 @@ h2 {
     text-align: right;
     margin-right: 0;
     border-width: 10px;
-    border-color: rgb(128, 22, 43);
+    border-color: rgb(208, 23, 23);
     width: 80%;
     margin-bottom: 50px;
 }
@@ -107,7 +107,7 @@ h2 {
     margin-right: 0;
     border-width: 10px;
     border-
-    border-color: rgb(128, 22, 43);
+    border-color: rgb(208, 23, 23);
     width: 80%;
     margin-bottom: 0;
     margin-top: 5%;

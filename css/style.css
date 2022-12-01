@@ -1,7 +1,9 @@
 
 body{
     background-color: black;
-    color: rgb(128, 22, 43); 
+    color: rgb(184, 35, 65); 
+    font-size: 30px;
+    margin-top: 0;
 }
 
 /* #space {
@@ -25,6 +27,15 @@ section.hero {
     justify-content: center;
 
 }
+.teamFotos {
+    width: 400px;
+    hover:
+}
+.teamFotos:hover {
+    width: 600px;
+}
+
+
 
 section.hero h1 {
     font-size: 30px;
@@ -46,11 +57,11 @@ h3 {
     flex-basis: 1fr 1fr 1fr;
     justify-content: space-around;
     flex-wrap: columns wrap;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-img {
-    width: 400px;
-}
 
 /* .wholePage {
     color: black;
@@ -77,8 +88,16 @@ h2 {
     border-width: 10px;
     border-color: rgb(128, 22, 43);
     width: 80%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
+}
+
+#planForWeek {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+li {
+    font-size: 40px;
 }
 
 /* .sectionHeadLine h1 {
@@ -88,3 +107,13 @@ h2 {
     padding: 15em;
 } */
 
+#pooriScreen {
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    font-size: 100px;
+    font-family: sans-serif;
+    text-shadow: 5px 5px 5px black;
+}

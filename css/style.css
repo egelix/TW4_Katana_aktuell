@@ -1,39 +1,59 @@
+@font-face {
+    font-family: martinsFirstFont;
+    src: url(../fonts/go3v2.ttf);
+}
+@font-face {
+    font-family: martinsSecondFont;
+    src: url(../fonts/Osake.ttf);
+}
+@font-face {
+    font-family: martinsThirdFont;
+    src: url(../fonts/SEVESBRG.TTF);
+}
+
 
 body{
     background-color: black;
-    color: rgb(236, 218, 23);
+    font-family: ubuntu;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     margin-top: 0;
+    background: url("../images/chineseFighterOriginal.jpg") no-repeat center center fixed;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: 89%;
 }
-
-/* #space {
-    display: flex;
-    height: 2vh;
-} */
 
 section {
     height: 100vh;
+    background-color: black;
+    margin-top: 100px;
+}
+
+section.team {
+    background: transparent;
 }
 
 section.hero {
     /* background: url("../images/Fighter_neu.png");
     background-attachment: fixed;
     background-size: cover; */
-    color: rgb(208, 23, 23);
+    background: transparent;
+    color: rgb(255, 59, 59);
     margin: 0;
     display: flex;
     align-content: center;
     justify-content: center;
-    height: 75vh;
+    height: 63vh;
     margin-bottom: 0;
 }
+
 .heroSub {
-    background: url("../images/chineseFighterOriginal.jpg") no-repeat center center fixed;
-    background-attachment: fixed;
-    background-size: 100vh;
     margin: 0;
     display: flex;
-    justify-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
     width: 100%;
     height: 100%;
     margin-top: 0%;
@@ -43,12 +63,6 @@ section.hero {
 }
 .teamFotos:hover {
     width: 600px;
-}
-
-
-
-section.hero h1 {
-    font-size: 30px;
 }
 
 section.problems {
@@ -70,6 +84,7 @@ h3 {
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
+    padding-bottom: 13%;
 }
 
 
@@ -84,33 +99,46 @@ h3 {
 
 h2 {
     font-size: 100px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(208, 23, 23);
+    font-family: martinsFirstFont;
+    /* font-family: martinsSecondFont; */
+    /* font-family: martinsThirdFont; */
+    color: rgb(255, 59, 59);
     display: flex;
     justify-content: flex-end;
-    margin-right: 100px;
+    margin-right: 7%;
     margin-bottom: 0;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .headlineHR {
-    text-align: right;
+    /* text-align: right;
     margin-right: 0;
     border-width: 10px;
     border-color: rgb(208, 23, 23);
     width: 80%;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
+    background: url("../images/katanaHR.png") no-repeat;
+    height: 120px;
+    width: 1300px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-size: cover;
+    text-align: right;
+    border: none;
+    margin-right: 0;
+    margin-top: 0;
 }
 
 .titleHR {
+    background: url("../images/katanaHRlinks.png") no-repeat;
+    height: 120px;
+    width: 1300px;
+    margin: 0;
+    margin-top: 3.7vh;
+    margin-bottom: 1.5vh;
+    background-size: cover;
     text-align: left;
-    margin-right: 0;
-    border-width: 10px;
-    border-
-    border-color: rgb(208, 23, 23);
-    width: 80%;
-    margin-bottom: 0;
-    margin-top: 5%;
+    border: none;
 }
 
 #planForWeek {
@@ -121,12 +149,6 @@ li {
     font-size: 40px;
 }
 
-/* .sectionHeadLine h1 {
-    background-color: black;
-    background-position: top left;
-    background-size: cover;
-    padding: 15em;
-} */
 
 #pooriScreen {
     display: flex;
@@ -135,6 +157,19 @@ li {
 
 #title {
     font-size: 100px;
-    font-family: sans-serif;
+    font-family: martinsFirstFont;
     text-shadow: 5px 5px 5px black;
+    margin-top: 0;
+    margin-left: 7%
+}
+
+#warriorsHL {
+    text-shadow: 5px 5px 5px black;
+    background: transparent;
+    opacity: 1;
+    border: none;
+}
+
+.warriorsBlack {
+    background-color: black;
 }

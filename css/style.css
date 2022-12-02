@@ -65,6 +65,10 @@ section.hero {
     width: 600px;
 }
 
+.kataPix:hover {
+    width: 400px;
+}
+
 section.problems {
     height: 100vh;
 }

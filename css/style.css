@@ -108,6 +108,7 @@ h2 {
     margin-right: 7%;
     margin-bottom: 0;
     margin-top: 100px;
+    padding-top: 2%;
 }
 
 .headlineHR {
@@ -141,12 +142,18 @@ h2 {
     border: none;
 }
 
-#planForWeek {
-    margin-left: 5%;
+.chapters {
+    margin-left: 7%;
     margin-right: 5%;
 }
 li {
     font-size: 40px;
+    padding: 1%;
+    margin-right: 5%
+}
+
+ul {
+    margin-right: 10%;
 }
 
 
@@ -168,8 +175,13 @@ li {
     background: transparent;
     opacity: 1;
     border: none;
+    padding-top: 0;
 }
 
 .warriorsBlack {
     background-color: black;
+}
+
+.week {
+    color: rgb(255, 59, 59);
 }

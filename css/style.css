@@ -219,3 +219,11 @@ p {
     width: 90%;
     justify-content: space-around;
 }
+
+.results {
+    display:grid;
+    margin-left: 10%;
+    margin-top: 5%;
+    grid-template-columns: auto auto;
+    justify-content: left baseline;
+}

@@ -27,7 +27,9 @@ body{
 section {
     height: 100vh;
     background-color: black;
-    margin-top: 100px;
+    margin-top: 0px;
+    margin-bottom: 0
+    padding-top: 100px;
 }
 
 section.team {
@@ -44,7 +46,7 @@ section.hero {
     display: flex;
     align-content: center;
     justify-content: center;
-    height: 63vh;
+    height: 73vh;
     margin-bottom: 0;
 }
 

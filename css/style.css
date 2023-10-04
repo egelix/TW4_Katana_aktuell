@@ -108,12 +108,7 @@ h2 {
 }
 
 .headlineHR {
-    /* text-align: right;
-    margin-right: 0;
-    border-width: 10px;
-    border-color: rgb(208, 23, 23);
-    width: 80%;
-    margin-bottom: 50px; */
+    
     background: url("../images/katanaHR.png") no-repeat;
     height: 120px;
     width: 1300px;
@@ -228,3 +223,9 @@ p {
     grid-template-columns: auto auto;
     justify-content: left baseline;
 }
+
+
+/* test */
+/* test */
+/* test */
+/* test */

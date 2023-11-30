@@ -22,7 +22,14 @@ body{
     background-color: black;
     background-attachment: fixed;
     background-size: 89%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
 
 section {
     height: 100vh;
